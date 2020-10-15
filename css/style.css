@@ -1,0 +1,602 @@
+  /* font-family: 'Lato', sans-serif;
+      font-family: 'Varela Round', sans-serif;*/
+
+*{
+    box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+h1 {
+  font-size: 62px;
+  line-height: 72px;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 300;
+  margin-bottom: 46px;
+}
+
+.f-w-300 {
+  font-weight: 300;
+}
+
+.f-w-400 {
+  font-weight: 400;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+ul > li {
+  list-style: none;
+}
+/*-----------button----*/
+.btn {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 9px 16px;
+  text-decoration: none;
+  color: #26272d;
+  border: 1px solid rgba(38, 39, 45, 0.1);
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+}
+
+.btn:active, .btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-lg {
+  padding: 14px 48px;
+}
+
+.btn-blue {
+  background-color: #267df4;
+  color: white;
+}
+
+.btn-green {
+  background-color: #6fc754;
+  color: white;
+}
+
+.btn-dark {
+  background-color: #131315;
+  color: white;
+}
+
+.btn-blue:hover, .btn-blue:focus,
+.btn-green:hover, .btn-green:focus,
+.btn-dark:hover, .btn-dark:focus {
+  color: #ffffff;
+}
+/*----------header start----*/
+#main-nav {
+  background-color:#f4f4f5;
+  position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+padding: 30px 0;
+z-index: 10;
+transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
+}
+#main-nav.active {
+    margin-top: 10px;
+}
+
+#main-nav ul {
+  padding: 0;
+}
+
+#main-nav ul li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+#main-nav ul li a {
+  text-decoration: none;
+}
+
+#main-nav ul li a:hover {
+  color: #267df4;
+}
+
+#main-nav ul li .help {
+  color: rgba(38, 39, 45, 0.4);
+}
+
+#main-nav ul li .btn-blue {
+  color: #ffffff;
+}
+
+#main-nav ul li .btn-blue:hover {
+  color: #ffffff;
+}
+
+#main-nav ul li:last-child {
+  margin-right: 0;
+}
+
+#main-nav ul.left {
+  text-align: left;
+  margin-left: 50px;
+}
+
+#main-nav ul.left li {
+  display: inline-block;
+  padding: 9px 0;
+}
+
+#main-nav ul.left li:first-child {
+  margin-right: 30px;
+}
+
+#main-nav ul.right {
+  text-align: right;
+}
+
+#main-nav .logo {
+  display: inline-block;
+  padding-top: 11px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#main-nav .logo {
+  display: flex;
+  margin-top: -38px;
+
+}
+
+
+.btn-blue{
+	width:132px;
+	height:40px;
+	  background-color: #267df4;
+  color: white;
+  border-radius: 35%;
+
+}
+
+
+#header {
+  padding: 200px 0 510px;
+  background-image: url("../images/banner_background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+#header p {
+  font-size: 20px;
+  color: #8c8f94;
+}
+
+#header .header_iphone {
+  position: absolute;
+  bottom: -310px;
+  left: 50%;
+  margin-left: -185px;
+}
+
+#header .video-btn {
+  margin-top: 48px;
+}
+
+#header .video-btn i {
+  margin-right: 15px;
+}
+/*****************************************************
+*** Features ***
+*****************************************************/
+#features {
+  padding: 120px 0;
+}
+
+#features .feature {
+
+  padding: 0px 38px;
+}
+
+#features .feature .f-icon {
+  margin-bottom: 48px;
+}
+
+#features .feature .f-icon i {
+  font-size: 42px;
+  color: #267df4;
+}
+p.subtitle {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+p{
+  font-size: 18px;
+line-height: 28px;
+color: #8c8f94;
+margin: 0 0 10px;
+
+}
+h4{
+font-size: 26px;
+line-height: 34px;
+font-weight: 400;
+margin-bottom: 25px;
+}
+h2 {
+    font-size: 52px;
+    line-height: 52px;
+    margin-bottom: 64px;
+}
+
+
+/*****************************************************
+*** Features ***
+*****************************************************/
+#features {
+  padding: 120px 0;
+}
+
+#features .feature {
+  padding: 0px 38px;
+}
+
+#features .feature .f-icon {
+  margin-bottom: 48px;
+}
+
+#features .feature .f-icon i {
+  font-size: 42px;
+  color: #267df4;
+}
+
+/*****************************************************
+*** iPhone Feature ***
+*****************************************************/
+#iphone-feature {
+  position: relative;
+  padding: 240px 0 330px;
+}
+
+#iphone-feature .btns-container {
+  margin-top: 62px;
+}
+
+#iphone-feature .btns-container a {
+  margin-right: 20px;
+  margin-bottom: 18px;
+}
+
+#iphone-feature .btns-container a i {
+  margin-left: 50px;
+  font-size: 14px;
+}
+
+#iphone-feature .btns-container a:last-child {
+  margin-right: 0;
+}
+
+#iphone-feature .iphone-showcase {
+  position: absolute;
+  bottom: 110px;
+  right: 50%;
+}
+
+
+/*****************************************************
+*** Map Feature ***
+*****************************************************/
+#map-feature {
+  padding: 120px 0 140px;
+  position: relative;
+  overflow: hidden;
+}
+
+#map-feature .partners {
+  margin-top: 52px;
+}
+
+#map-feature .partners .title {
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#map-feature .partners ul {
+  margin: 26px 0 0;
+}
+
+#map-feature .partners ul li {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
+
+#map-feature .partners ul li:last-child {
+  margin-right: 0;
+}
+
+#map-feature .map-showcase {
+  position: absolute;
+  bottom: 110px;
+  left: 50%;
+}
+
+/*****************************************************
+*** Buy ***
+*****************************************************/
+#ready-to-buy {
+  padding: 120px 0 130px;
+  background-color: #f4f4f5;
+}
+
+#ready-to-buy form {
+  margin-bottom: 66px;
+}
+
+#ready-to-buy .btn i {
+  font-size: 12px;
+  margin-left: 18px;
+}
+
+#ready-to-buy .btn-dark {
+  padding: 9px 28px;
+}
+
+#ready-to-buy .btn-dark i {
+  font-size: 32px;
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 18px;
+}
+
+#ready-to-buy .btn-dark span {
+  font-size: 12px;
+  display: inline-block;
+  text-align: left;
+}
+
+#ready-to-buy .btn-dark span b {
+  font-size: 22px;
+  line-height: 18px;
+}
+
+.f-w-400 {
+    font-weight: 400;
+}
+p.subtitle {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+input[type="text"], input[type="email"] {
+    width: 502px;
+    height: 50px;
+    max-width: 100%;
+    border: 1px solid rgba(38, 39, 45, 0.2);
+    padding: 16px 26px;
+    font-size: 16px;
+    background-color: transparent;
+    padding-right: 148px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+}
+#ready-to-buy .form-group .btn, #subscribe .form-group .btn {
+    position: absolute;
+    top: 4px;
+    right: 18px;
+}
+.btn {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 9px 16px;
+    text-decoration: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+}
+.btn-green {
+    background-color: #6fc754;
+    color: white;
+}
+/*****************************************************
+*** Customers ***
+*****************************************************/
+/*slider start*/
+.slider{
+  padding:120px 0;
+}
+.slider_content{
+  margin-top:65px;
+}
+.slider_content h1{
+  font-size:32px;
+  font-weight:700;
+}
+.slider_content h2{
+  font-size:20px;
+  font-weight:400;
+  color:#313841;
+  letter-spacing:1px;
+  word-spacing:2px;
+  margin:20px 0;
+}
+.slider_content p{
+  /*p means font-weight:400 and font-size 16px. so no need to write this*/
+  color:#555555;
+  word-spacing:1px;
+  line-height:20px;
+  margin-bottom:35px;
+}
+.slider_icon{
+  font-size:40px; 
+}
+.slider_icon li{
+    margin-right:30px !important;
+}
+.img-responsive{
+    position: relative;
+    border-radius: 100%;
+    z-index: 2;
+    box-shadow: 0px 12px 30px 0px rgba(92, 95, 101, 0.18);
+}
+.cid li {
+  width:15px;
+    height: 15px;
+    border-radius: 50%;
+}
+/*slider end*/
+/*****************************************************
+*** Subscribe ***
+*****************************************************/
+#subscribe {
+  padding: 90px 0 50px;
+}
+
+#subscribe .btn {
+  padding-left: 34px;
+  padding-right: 34px;
+}
+
+#subscribe .promise {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/*****************************************************
+*** Footer ***
+*****************************************************/
+#footer {
+  color: #8c8f94;
+  font-size: 16px;
+}
+
+#footer .footer-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+#footer .copyright-container {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+#footer .logo {
+  margin-bottom: 36px;
+}
+
+#footer p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+#footer .app_download img {
+  margin-top: 6px;
+}
+
+#footer ul li .title {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #26272d;
+  font-size: 12px;
+  list-style: none;
+}
+
+#footer ul li a {
+  color: #8c8f94;
+  text-decoration: none;
+  line-height: 36px;
+}
+
+#footer ul li a:hover {
+  color: #26272d;
+}
+
+#footer .socials {
+  margin-top: 32px;
+}
+
+#footer .socials li {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+#footer .socials li a {
+  color: rgba(19, 19, 21, 0.3);
+}
+
+#footer .socials li:last-child {
+  margin-right: 0;
+}
+
+#footer .more-info {
+  line-height: 24px;
+  font-size: 14px;
+}
+
+#footer .made-by {
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #26272d;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer .made-by a img {
+  margin-top: -8px;
+  margin-left: 8px;
+}

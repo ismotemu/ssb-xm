@@ -1,0 +1,49 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .what{
+        font-size: 46px;
+    }
+    .what-p{
+        font-size:16px;
+    }
+    .header_iphone{
+        width: 64%;
+}
+#header .header_iphone {
+    position: absolute;
+    bottom: -186px;
+    left: 66%;
+    margin-left: -185px;
+}
+ h1{
+    font-size: 47px;
+    line-height: 52px;
+}
+h2 {
+    font-size: 37px;
+    line-height: 37px;
+}
+p{
+  font-size: 18px;
+line-height: 28px;
+}
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+}
